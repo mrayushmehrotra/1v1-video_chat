@@ -19,7 +19,7 @@ export default function roomPage({params}){
                 container:element,
                 sharedLinks: [{
                         name:"copy link",
-                        url: `http://localhost:3000/room/${roomId}`
+                        url: `${window.location.href}`
                 }],
                 
                 scenario:{
