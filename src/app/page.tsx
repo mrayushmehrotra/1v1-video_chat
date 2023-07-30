@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center align-middle">
+      <div className="flex flex-col justify-center items-center align-middle h-full">
         <h1>Enter Your Name</h1>
         <input
           value={value}
